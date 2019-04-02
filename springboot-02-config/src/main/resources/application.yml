@@ -1,0 +1,29 @@
+server:
+  port: 8090
+spring:
+  profiles:
+    active: prod
+#person:
+#  lastName: david
+#  age: 25
+#  boss: true
+#  birth: 2019/03/30
+#  maps: {k1: v1 ,k2: 12}
+#  lsits:
+#    - lisi
+#    - wangwu
+#  dog:
+#    name: xiaogou
+#    age: 20
+#yml配置文件中的多环境的配置支持
+
+---
+server:
+  port: 8091
+spring:
+  profiles: dev
+---
+server:
+  port: 8092
+spring:
+  profiles: prod
