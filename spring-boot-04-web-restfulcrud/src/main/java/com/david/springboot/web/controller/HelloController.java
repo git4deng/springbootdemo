@@ -14,7 +14,18 @@ import java.util.Map;
  */
 @Controller
 public class HelloController {
-   @ResponseBody
+    /**
+     * 首页访问的处理办法之一：控制器中定义访问首页的请求返回的视图，springboot的模板引擎将自动取classpath:template/下
+     * 去找对应的html页面
+     * @return
+     */
+//    @RequestMapping({"/","/index.html"})
+//    public String index(){
+//        return "index";
+//    }
+
+
+    @ResponseBody
     @RequestMapping("/hello")
     public String hello(){
         return "hello web!";

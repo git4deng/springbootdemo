@@ -74,6 +74,8 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.3.23.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-configuration-processor:1.5.20.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.webjars:jquery:3.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars:bootstrap:4.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:popper.js:1.11.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-thymeleaf:1.5.20.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.thymeleaf:thymeleaf-spring4:3.0.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.thymeleaf:thymeleaf:3.0.9.RELEASE" level="project" />
