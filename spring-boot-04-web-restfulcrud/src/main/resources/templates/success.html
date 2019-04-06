@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--xmlns:th="http://www.thymeleaf.org"  themeleaf命名空间，便于语法提示-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>成功页面</h1>
+    <!--th:任意html属性，都可以替换原生属性的值,不仅仅是值，也可以是属性值-->
+    <!--<div th:text="${hello}"></div>
+    <div id="id" class="class" th:id="${hello}" th:class="${hello}" th:text="${hello}">原生的值</div>-->
+    <div th:text="${hello}"></div>
+    <div th:utext="${hello}"></div>
+    </hr>
+    <!--th:each每次遍历都会生成当前标签-->
+    <h4 th:each="user:${users}" th:text="${user}"></h4>
+
+
+</body>
+</html>
